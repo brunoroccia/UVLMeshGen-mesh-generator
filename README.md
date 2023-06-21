@@ -1,4 +1,6 @@
-# Repository for the UVLM-oriented mesh generatorUVLMeshGen
+# Repository for the UVLM-oriented mesh generator UVLMeshGen
+
+This software can be used and distributed under the following license:
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
