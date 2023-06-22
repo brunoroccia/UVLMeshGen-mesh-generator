@@ -18,7 +18,7 @@ This work is licensed under a
 First version released on June 22, 2023.
 
 **Warning:** <br />
-It works on Matlab 7+, but use at your own risk! <br />
+It works on Matlab 7+ <br />
 A technical description of the implementation can be found in the following paper:
 
 Roccia, B.A., Ceballos, L.R., Verstraete, M.L., and Gebhardt, C.G., "UVLM-based mesh generator intended for onshore and offshore wind farms," _Wind Energy Science_, submitted June 20, 2023. 
