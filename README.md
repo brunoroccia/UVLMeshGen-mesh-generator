@@ -14,20 +14,22 @@ This work is licensed under a
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 ----------------------------------------------------------------------------------------------------
-First version of UVLMeshGen released on June 22, 2023.
+**UVLMeshGen:** <br />
+First version released on June 22, 2023.
 
 **Warning:** <br />
 It works on Matlab 7+, but use at your own risk! <br />
-A technical description of the implementation can be found in the following paper: <br />
-Roccia, B.A., Ceballos, L.R., Verstraete, M.L., and Gebhardt, C.G., "UVLM-based mesh generator intended for onshore and offshore wind farms," Wind Energy Sceince, submitted June 20, 2023. 
+A technical description of the implementation can be found in the following paper:
 
-**Usage of external functions:** <br />
+Roccia, B.A., Ceballos, L.R., Verstraete, M.L., and Gebhardt, C.G., "UVLM-based mesh generator intended for onshore and offshore wind farms," _Wind Energy Sceince_, submitted June 20, 2023. 
+
+**Use of external functions:** <br />
 UVLMeshGen relies on the function **cprintf** developed by **Yair Altman** for warnings and error messages. 
 
 Yair Altman (2023). cprintf - display formatted colored text in Command Window (https://www.mathworks.com/matlabcentral/fileexchange/24093-cprintf-display-formatted-colored-text-in-command-window), MATLAB Central File Exchange. Retrieved June 22, 2023.
 
 **Bugs and suggestions:**
-Please send to contact list below.
+Please send to contact list provided below.
 
 ----------------------------------------------------------------------------------------------------
 
