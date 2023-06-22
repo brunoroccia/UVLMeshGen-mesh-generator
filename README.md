@@ -18,14 +18,15 @@ First version of UVLMeshGen released on June 22, 2023.
 
 **Capabilities:** <br />
 1) Wind turbine meshing (blades, hub, nacelle, tower, monopile, terrain), <br />
-2) Wind farm meshing (multiple wind turbines), heteroneous wind farms are possible, <br />
+2) Wind farm meshing (multiple wind turbines), heterogeneous wind farms are possible, <br />
 3) Terrain topography allowed, <br />
 4) Kinematics module, which allows to generate the wind farm kinematics, <br />
-5) Outputs (by default the user can chose exporting the mesh in Tecplot format), or include a user-defined script for exporting purposes.
+5) Outputs (by default the user can choose exporting the mesh in Tecplot format), or include a user-defined script for exporting purposes.
 
 **Limitations:** <br />
-1) Substructure kinematics not included, <br />
-2) Sea level surface kinematics not included.
+1) Does not support meshing of substructures (only monopile type structures), <br />
+2) Substructure kinematics not included, <br />
+3) Sea level surface kinematics not included.
 
 **Collaborative work developed by:** <br />
 Bergen Offshore Wind Centre (BOW), University of Bergen, Norway <br />
