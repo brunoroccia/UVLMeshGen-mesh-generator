@@ -1,0 +1,273 @@
+Mesh Generator ver. 1.00 - Wind Farms
+Developed by Dr. Ing. Bruno Roccia
+             Date: June 22, 2023
+             BOW, UiB
+             Contact: bruno.roccia@uib.no
+
+*************************************************************************************
+                            G E N E R A L   D A T A
+*************************************************************************************
+
+Number of Wind Farm Components:  8
+Total Number of Nodes:  11631
+Total Number of Panels: 10540
+
+Hereafter the global reference frame will be referenced as GRF
+For onshore and offshore wind turbines, the GRF origin is located at
+the center of Ground component.
+
+*************************************************************************************
+                    W I N D   T U R B I N E   (1)   
+*************************************************************************************
+
+Tilt angle [º]:       6.00000
+Pre-cone angle [º]:   4.00000
+Number of blades:    3
+Tower height:        144.50000
+
+-------------------------------------------------------------------------------------
+                    G R O U N D   C O M P O N E N T   D A T A
+-------------------------------------------------------------------------------------
+
+Number of Nodes:    363
+Number of Panels:   320
+
+Number of Nodes along the circunf. direction:     33
+Number of Nodes along the radial direction:    11
+
+-------------------------------------------------------------------------------------
+                    T O W E R   C O M P O N E N T   D A T A
+-------------------------------------------------------------------------------------
+
+Number of Nodes                               :  1980
+Number of Panels                              :  1888
+
+Number of Nodes along the circunf. direction  :    33
+Number of Nodes along the Z(Height) direction :    60
+
+-------------------------------------------------------------------------------------
+                  N A C E L L E   C O M P O N E N T   D A T A
+-------------------------------------------------------------------------------------
+
+Number of Nodes on the Patch component               :   325
+Number of Panels on the Patch component              :   256
+
+Number of Nodes on the Cylindrical component         :   425
+Number of Panels on the Cylindrical component        :   384
+
+Number of Nodes on the Connection N-T component      :   325
+Number of Panels on the Connection N-T component     :   256
+
+Number of Nodes on the Tail component                :   820
+Number of Panels on the Tail component               :   760
+
+-------------------------------------------------------------------------------------
+                       H U B   C O M P O N E N T   D A T A
+-------------------------------------------------------------------------------------
+
+Number of Nodes on the Patch component              :   231
+Number of Panels on the Patch component             :   192
+
+Number of Nodes on the Connection H-B component     :   165
+Number of Panels on the Connection H-B component    :   128
+
+Number of Nodes on the Nose component               :   250
+Number of Panels on the Nose component              :   216
+
+-------------------------------------------------------------------------------------
+                     B L A D E   C O M P O N E N T   D A T A
+-------------------------------------------------------------------------------------
+
+Number of Nodes on the Lifting Surface component    :  1035
+Number of Panels on the Lifting Surface             :   952
+
+Number of Nodes on the blade root component         :   290
+Number of Panels on the blade root component        :   252
+
+Number of Nodes to be shed:      81
+Number of Panels to be shed:     80
+-------------------------------------------------------------------------------------
+Shedding Nodes
+   45
+   60
+   75
+   90
+  105
+  120
+  135
+  150
+  165
+  180
+  195
+  210
+  225
+  240
+  255
+  270
+  285
+  300
+  315
+  330
+  345
+  360
+  375
+  390
+  405
+  420
+  435
+  450
+  465
+  480
+  495
+  510
+  525
+  540
+  555
+  570
+  585
+  600
+  615
+  630
+  645
+  660
+  675
+  690
+  705
+  720
+  735
+  750
+  765
+  780
+  795
+  810
+  825
+  840
+  855
+  870
+  885
+  900
+  915
+  930
+  945
+  960
+  975
+  990
+ 1005
+ 1020
+ 1035
+ 1034
+ 1033
+ 1032
+ 1031
+ 1030
+ 1029
+ 1028
+ 1027
+ 1026
+ 1025
+ 1024
+ 1023
+ 1022
+ 1021
+-------------------------------------------------------------------------------------
+Shedding Panels
+   42
+   56
+   70
+   84
+   98
+  112
+  126
+  140
+  154
+  168
+  182
+  196
+  210
+  224
+  238
+  252
+  266
+  280
+  294
+  308
+  322
+  336
+  350
+  364
+  378
+  392
+  406
+  420
+  434
+  448
+  462
+  476
+  490
+  504
+  518
+  532
+  546
+  560
+  574
+  588
+  602
+  616
+  630
+  644
+  658
+  672
+  686
+  700
+  714
+  728
+  742
+  756
+  770
+  784
+  798
+  812
+  826
+  840
+  854
+  868
+  882
+  896
+  910
+  924
+  938
+  952
+  952
+  951
+  950
+  949
+  948
+  947
+  946
+  945
+  944
+  943
+  942
+  941
+  940
+  939
+
+Blade Pre-bend                  : read from DATASheet
+Max Pre-bend displacement (TIP) :  -3.875470
+Max Pre-bend rotation (TIP)     :  -0.098901
+Blade Sweep                     : Disabled
+Max Pre-bend displacement (TIP) :   0.000000
+Max Pre-bend rotation (TIP)     :   0.000000
+-------------------------------------------------------------------------------------
+Satinity Test
+Original blade length : 117.000000
+Final blade length    : 115.751779
+-------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+                M O N O P I L E   C O M P O N E N T   D A T A
+-------------------------------------------------------------------------------------
+
+Number of Nodes                               :  1980
+Number of Panels                              :  1888
+

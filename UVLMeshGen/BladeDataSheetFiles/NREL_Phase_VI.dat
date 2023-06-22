@@ -1,0 +1,60 @@
+% Applied Mathematics Group (GMA) - UNRC
+% Dr. Bruno Roccia / April 2020
+% Blade geometry definition
+% ----------------------------------------------
+% This file contains the following data listed in columns :
+%   1.- Blade airfoil along the span (Axis 'Z') [m]
+%       WARNING: Z=0 corresponds to the hub-blade joint (i.e.: 'Z' does not meassure the rotor radius)
+%   2.- File name containing the airfoil data (without include the extension)
+%   3.- Geoemtric twist, positive along Z (increasing the AoA) [º]
+%   4.- Chordwise [m]
+%   5.- Thickness ratio t/c
+%   6.- Distance between the twist axis and the leading edge on axis Y, (Reference unit chordwise)
+%       (positive values indicate that the twist axis is located between the leading edge and the trailind edge)
+%   7.- Blade Pre-bend [m]
+%   8.- Blade sweep [m]
+
+%   1   2                         3       4       5        6            7       8
+% -----------------------------------------------------------------------------------
+ 0.0      01-Cylinder             0.0       0.218   1.000    0.500    0.000   0.000
+ 0.1      01-Cylinder             0.0       0.218   1.000    0.500    0.000   0.000
+ 0.2      01-Cylinder             0.0       0.218   1.000    0.500    0.000   0.000
+ 0.3      01-Cylinder             0.0       0.218   1.000    0.500    0.000   0.000
+ 0.4      01-Cylinder             0.0       0.218   1.000    0.500    0.000   0.000
+ 0.5      01-Cylinder             0.0       0.218   1.000    0.500    0.000   0.000
+ 0.6604   01-Cylinder             0.0       0.218   1.000    0.500    0.000   0.000
+ 0.8835   06-Ellipse(93pt1)       0.0       0.320   0.700    0.450    0.000   0.000
+ 1.0085   07-Ellipse(92pt5)      -6.7       0.390   0.500    0.380    0.000   0.000
+ 1.0675   05-Ellipse(97)         -6.9       0.441   0.400    0.335    0.000   0.000
+ 1.1335   05-Ellipse(97)         -13.4      0.544   0.250    0.319    0.000   0.000
+ 1.2575   NREL-S809              -20.04     0.737   0.154    0.300    0.000   0.000
+ 1.343    NREL-S809              -18.074    0.728   0.2095   0.300    0.000   0.000
+ 1.510    NREL-S809              -14.292    0.711   0.2095   0.300    0.000   0.000
+ 1.648    NREL-S809              -11.909    0.697   0.2095   0.300    0.000   0.000
+ 1.952    NREL-S809              -7.979     0.666   0.2095   0.300    0.000   0.000
+ 2.257    NREL-S809              -5.308     0.636   0.2095   0.300    0.000   0.000
+ 2.343    NREL-S809              -4.715     0.627   0.2095   0.300    0.000   0.000
+ 2.562    NREL-S809              -3.425     0.605   0.2095   0.300    0.000   0.000
+ 2.867    NREL-S809              -2.082     0.574   0.2095   0.300    0.000   0.000
+ 3.172    NREL-S809              -1.15      0.543   0.2095   0.300    0.000   0.000
+ 3.185    NREL-S809              -1.115     0.542   0.2095   0.300    0.000   0.000
+ 3.476    NREL-S809              -0.494     0.512   0.2095   0.300    0.000   0.000
+ 3.781    NREL-S809               0.015     0.482   0.2095   0.300    0.000   0.000
+ 4.023    NREL-S809               0.381     0.457   0.2095   0.300    0.000   0.000
+ 4.086    NREL-S809               0.475     0.451   0.2095   0.300    0.000   0.000
+ 4.391    NREL-S809               0.920     0.420   0.2095   0.300    0.000   0.000
+ 4.696    NREL-S809               1.352     0.389   0.2095   0.300    0.000   0.000
+ 4.780    NREL-S809               1.469     0.381   0.2095   0.300    0.000   0.000
+ 5.000    NREL-S809               1.775     0.358   0.2095   0.300    0.000   0.000
+ 5.305    NREL-S809               2.191     0.328   0.2095   0.300    0.000   0.000
+ 5.532    NREL-S809               2.50      0.305   0.2095   0.300    0.000   0.000
+
+
+
+
+
+
+
+
+
+

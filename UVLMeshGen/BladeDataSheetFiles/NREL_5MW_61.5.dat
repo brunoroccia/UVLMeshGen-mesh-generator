@@ -1,0 +1,46 @@
+
+% Applied Mathematics Group (GMA) - UNRC
+% Dr. Bruno Roccia / April 2020
+% Blade geometry definition
+% ----------------------------------------------
+% This file contains the following data listed in columns :
+%   1.- Blade airfoil along the span (Axis 'Z') [m]
+%       WARNING: Z=0 corresponds to the hub-blade joint (i.e.: 'Z' does not meassure the rotor radius)
+%   2.- File name containing the airfoil data (without include the extension)
+%   3.- Geoemtric twist, positive along Z (increasing the AoA) [º]
+%   4.- Chordwise [m]
+%   5.- Thickness ratio t/c
+%   6.- Distance between the twist axis and the leading edge on axis Y, (Reference unit chordwise)
+%       (positive values indicate that the twist axis is located between the leading edge and the trailind edge)
+%   7.- Blade Pre-bend [m]
+%   8.- Blade sweep [m]
+
+%   1   2                         3       4       5        6       7        8
+% -----------------------------------------------------------------------------
+  0.0   01-Cylinder            -13.308  3.386   1.0000   0.500    0.0      0.0
+  0.3   01-Cylinder            -13.308  3.386   1.0000   0.500    0.0      0.0
+ 1.3667 01-Cylinder            -13.308  3.386   1.0000   0.500    0.0      0.0
+ 10.25  15-DU99-W-405          -13.308  4.557   0.4050   0.400    0.0      0.0
+ 14.35  17-DU99-W-350(36)      -11.480  4.652   0.3600   0.400    0.0      0.0
+ 22.55  19-DU97-W-300           -9.011  4.249   0.3000   0.400    0.0      0.0
+ 26.65  20-DU91-W2-250(26)      -7.795  4.007   0.2600   0.400    0.0      0.0
+ 30.75  20-DU91-W2-250(26)      -6.544  3.748   0.2600   0.400    0.0      0.0
+ 34.85  22-DU93-W-210           -5.361  3.502   0.2300   0.400    0.0      0.0
+ 38.95  22-DU93-W-210           -4.188  3.256   0.2100   0.400    0.0      0.0
+ 43.05  25-NACA-64-618          -3.125  3.010   0.1900   0.400    0.0      0.0
+ 47.15  25-NACA-64-618          -2.319  2.764   0.1850   0.400    0.0      0.0
+ 51.25  25-NACA-64-618          -1.526  2.518   0.1800   0.400    0.0      0.0
+ 54.66  25-NACA-64-618          -0.863  2.313   0.1800   0.400    0.0      0.0
+ 57.40  25-NACA-64-618          -0.370  2.086   0.1800   0.400    0.0      0.0
+ 60.133 25-NACA-64-618          -0.106  1.419   0.1800   0.400    0.0      0.0
+ 61.50  25-NACA-64-618          -0.000  1.085   0.1800   0.400    0.0      0.0
+
+
+
+
+
+
+
+
+
+
