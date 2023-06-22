@@ -14,5 +14,5 @@ This work is licensed under a
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 ----------------------------------------------------------------------------------------------------
-Contact: Dr. Bruno Roccia (bruno.roccia@uib.no), University of Bergen, Norway
+Contact: Dr. Bruno Roccia (bruno.roccia@uib.no), University of Bergen, Norway \\
          Dr. Luis Ceballos (lceballos@ing.unrc.edu.ar), National University of Río Cuarto, Argentina
