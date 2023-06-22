@@ -14,12 +14,11 @@ This work is licensed under a
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 ----------------------------------------------------------------------------------------------------
-**Developed at:** <br />
-Bergen Offshore Wind Centre (Bow), University of Bergen, Norway <br />
+**Collaborative work developed by:** <br />
+Bergen Offshore Wind Centre (BOW), University of Bergen, Norway <br />
 Group of Applied Matheamtics, National university of Río Cuarto <br />
 
 **Contacts:** <br />
 Dr. Bruno Roccia (bruno.roccia@uib.no), University of Bergen, Norway <br />
 Dr. Luis Ceballos (lceballos@ing.unrc.edu.ar), National University of Río Cuarto, Argentina
 
-git status
