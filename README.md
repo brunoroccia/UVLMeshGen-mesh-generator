@@ -16,6 +16,21 @@ This work is licensed under a
 ----------------------------------------------------------------------------------------------------
 First version of UVLMeshGen released on June 22, 2023.
 
+**Warning:** <br />
+It works on Matlab 7+, but use at your own risk! <br />
+A technical description of the implementation can be found in the following paper: <br />
+Roccia, B.A., Ceballos, L.R., Verstraete, M.L., and Gebhardt, C.G., "UVLM-based mesh generator intended for onshore and offshore wind farms," Wind Energy Sceince, submitted June 20, 2023. 
+
+**Usage of external functions:** <br />
+UVLMeshGen relies on the function **cprintf** developed by **Yair Altman** for warnings and error messages. 
+
+Yair Altman (2023). cprintf - display formatted colored text in Command Window (https://www.mathworks.com/matlabcentral/fileexchange/24093-cprintf-display-formatted-colored-text-in-command-window), MATLAB Central File Exchange. Retrieved June 22, 2023.
+
+**Bugs and suggestions:**
+Please send to contact list below.
+
+----------------------------------------------------------------------------------------------------
+
 **Capabilities:** <br />
 1) Wind turbine meshing (blades, hub, nacelle, tower, monopile, terrain), <br />
 2) Wind farm meshing (multiple wind turbines), heterogeneous wind farms are possible, <br />
