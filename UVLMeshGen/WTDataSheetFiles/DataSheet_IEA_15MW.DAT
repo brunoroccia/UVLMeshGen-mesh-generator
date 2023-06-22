@@ -1,0 +1,143 @@
+% This file contains the geoemtric description and standard parameters of a single wind turbine
+%-------------------------------------------------------------------------------------------------------------------------------
+%           All the units are in the IS 
+%           Lengths     = meters [m]
+%           Velocities  = meters / second [m/s]
+%           Angles      = Degrees [º] 
+%           Angular Velocity = R.P.M
+%-------------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------
+
+%*******************************************************************************************************************************
+%                                            STANDARD PARAMETERS OF A WIND TURBINE
+%*******************************************************************************************************************************
+
+3               % NumBld          - Number of blades (1 to 7)
+4.0             % PreCone         - Rotor precone angle [º]
+6.0             % HubRad          - Hub radius (including hub-to-blade connectors)
+3.97            % HubInnerR       - Hub radius (without hub-to-blade connectors)
+6.0             % Tilt            - Tilt angle [º]
+144.5           % TowHeight       - Tower height (from ground level)             
+
+%*******************************************************************************************************************************
+%                                                   WIND TURBNE COMPONENTS
+%*******************************************************************************************************************************
+
+1               % Blade           - Blade geometry (0: OFF / 1: ON)
+1               % Tower           - Tower geoemtry (0: OFF / 1: ON)
+1               % Nacelle         - Nacelle geometry (0: OFF / 1: ON)
+1               % Hub             - Hub geometry (0: OFF / 1: ON)
+1               % Ground          - Ground platform geometry (0: OFF / 1: ON)
+1               % Monopile        - Monopile geometry (:0 OFF / 1: ON)
+
+%*******************************************************************************************************************************
+%                                          BLADE PARAMETERS AND DISCRETIZATION (UVLM)
+%*******************************************************************************************************************************
+
+IEA_15MW.DAT    % NameBld         - File containing the geometric description of the blade
+117.0           % LBld            - Total blade length (from root to tip)
+99.45           % LSLBLd          - Lifting surface length
+2.34            % RLBld           - Root length of the blade
+%---------------------------------------------------- DATA FOR UVLM MESHING ----------------------------------------------------
+15              % NBldC           - Number of nodes along the chordwise direction of the blade
+70              % NBldS           - Number of nodes along the spanwise direction of the blade
+2               % ShedBld         - Shedding zones (1: TE shedding only / 2: TE + blade tip)
+2               % GAPBld          - Number of nodes on the Gap zone
+%--------------------------------------------- PRE-BEND AND SWEEP BLADE DEFLECTION ---------------------------------------------
+1.6             % aBld            - Exponent of the deflection formula (pre-bend)
+1.7             % bBld            - Exponent of the deflection formula (sweep)
+4.0             % r1Bld           - Tip deflection (pre-bend)
+4.0             % r2Bld           - Tip deflection (sweep)
+0.0             % X0Bld           - Starting coordinate from which the blade is bent (0 to 1)
+5               % QGaussBld       - Number of Gauss points to calculate the integral which take into account 
+                                    % the shortening for arc-length conservation (Max: 6 quadrature points)
+0.1             % DXBld           - Increment to be used to compute numerical derivatives
+1               % Op1Bld          - Pre-bend procedure (0: Pre-bend OFF / 1: Pre-bend from File / 2: Zuteck's formula for Pre-bend)
+0               % Op2Bld          - Sweep procedure (0: sweep OFF / 1: sweep from File / 2: Zuteck's formula for sweep)  
+
+%*******************************************************************************************************************************
+%                                                HUB PARAMETERS AND DISCRETIZATION
+%*******************************************************************************************************************************
+
+7.0             % LCylHub         - Hub length (Cylindrical part)
+5.0             % LNoseHub        - Length of the Hub nose
+2.00            % TrimNoseHub     - Trim Percentage (1 - 10%) associated with the hub nose tip (Always different from zero)
+2.6             % RBladeHub       - Diameter of the hub-blade coupling (Equal to the blade root diameter)
+1               % ShapeNosHub     - Hub nose shape (1: Spherical / 2: Parabolic / 3: Cubic)
+%---------------------------------------------------- DATA FOR UVLM MESHING ----------------------------------------------------
+33              % NCircHub        - Number of nodes along the circunferential direction on the hub patch
+9               % NRadHub         - Number of nodes along the radial direction on the hub patch (division based on concentric squares)
+5               % NZcoupHub       - Number of nodes along the hub-blade coupling connector
+10              % NNoseHub        - Number of nodes along the longitudinal direction (X-axis) of the Hub nose
+
+%*******************************************************************************************************************************
+%                                             NACELLE PARAMETERS AND DISCRETIZATION
+%*******************************************************************************************************************************
+
+3.97            % RadNac          - Radius of the nacelle (It has to be equal to the Hub inner radius variable = HubInnerR)
+0.5             % RTailNac        - Radius of the tail of the nacelle
+8.0             % LCylNac         - Length of the cylindrical part of the nacelle
+12.0            % LTailNac        - Length of the tail part of the nacelle
+1.5             % LConTNac        - Length of the coupling connection between the nacelle and the tower
+3.25            % RConTNac        - Radius of the coupling connection between the nacelle and the tower (It has to be equal to the top radius of the tower)
+4               % ShapeTailNac    - Nacelle tail shape (1: Parabolic / 2: Parabolic (square end) / 3: Cubic-Hermite / 4: Cubic-Hermite (square end))
+%---------------------------------------------------- DATA FOR UVLM MESHING ----------------------------------------------------
+65              % NCircNac        - Number of nodes along the circunferential direction on the nacelle patch (tower-nacelle coupling)
+7               % NRadNac         - Number of nodes along the radial direction on the nacelle patch (division based on concentric squares)
+25              % NCircCylNac     - Number of nodes along the circunferential direction in the cylindrical part of the nacelle
+20              % NTailNac        - Number of nodes along the longitudinal direction (X-axis) of the nacelle tail
+5               % NZCoupNac       - Number of nodes along the nacelle-tower coupling connector
+
+%*******************************************************************************************************************************
+%                                             TOWER PARAMETERS AND DISCRETIZATION
+%*******************************************************************************************************************************
+
+3.25            % RConTTow        - Radius of the coupling connection between the tower and the nacelle (It has to be equal to the radius of the nacelle connector)
+5.0             % RGroundTow      - Radius of the tower at ground level 
+%---------------------------------------------------- DATA FOR UVLM MESHING ----------------------------------------------------
+60              % NZTow           - Number of nodes along the longitudinal direction (Z-axis) of the tower
+33              % NCircTow        - Number of nodes along the circunferential direction of the tower (It has to be equal to variable = NCircNac)
+
+%*******************************************************************************************************************************
+%                                             GROUND PARAMETERS AND DISCRETIZATION
+%*******************************************************************************************************************************
+
+5.0             % RTowGround      - Radius of the coupling connection between the ground and the tower (It has to be equal to the radius of the tower at ground level)
+200             % LGround         - Length of the square side witch represents the ground  
+%---------------------------------------------------- DATA FOR UVLM MESHING ----------------------------------------------------
+33              % NCircGround     - Number of nodes along the circunferential direction on the ground patch (ground-tower coupling / equal to variable = NCircTow)
+13              % NRadGround      - Number of nodes along the longitudinal direction (Z-axis) of the tower
+
+%*******************************************************************************************************************************
+%                                            MONOPILE PARAMETERS AND DISCRETIZATION
+%*******************************************************************************************************************************
+
+5.0             % RWaterMon       - Radius of the coupling connection between the sea level and the monopile (It has to be equal to the radius of the tower at ground level)
+5.0             % RDeepMon        - Radius of the monopile on the sea floor
+100             % LMon            - Length of the monopile 
+%---------------------------------------------------- DATA FOR UVLM MESHING ----------------------------------------------------
+33              % NCircMon        - Number of nodes along the circunferential direction on the monopile (ground-monopile coupling / equal to variable = NCircGround)
+60              % NZMon           - Number of nodes along the longitudinal direction (Z-axis) of the monopile
+
+%*******************************************************************************************************************************
+%                                                   ASSEMBLING WT PARAMETERS
+%*******************************************************************************************************************************
+
+0                   % Yaw0WT          - Initial yaw angle of the wind turbine [º]
+0                   % Rot0WT          - Initial angle of the rotor (Hub + blades)
+0,0,0               % Pitch0WT        - Vector containing the initial pitch angle of each blade (Do not let spaces between the values)
+
+%*******************************************************************************************************************************
+%                                                        KINEMATIC DATA
+%*******************************************************************************************************************************
+
+MyRotor       % NameRot         - Name of the m Matlab file containing the rotor kinematic
+MyYaw         % NameYaw         - Name of the m Matlab file containing the Nacelle yaw kinematic
+MyPitch       % NamePitch       - Name of the m Matlab file containing the blade pitch kinematic
+%------------------------------------------------- DATA ASSOCIATED WITH UVLM ----------------------------------------------------
+0             % UVLMLC          - Characteristic length (0: LC is automaticly calculated based on the formula sqrt(AT/NP) of the blade)
+13            % UVLMVC          - Characteristic Velocity
+30            % UVLMSteps       - Number of Time steps
+
+
+

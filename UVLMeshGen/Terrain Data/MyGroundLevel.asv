@@ -1,0 +1,6 @@
+function XYZOutput = MyGroundLevel (XYZ, NN)
+
+
+
+XYZOutput  =XYZ;
+end
