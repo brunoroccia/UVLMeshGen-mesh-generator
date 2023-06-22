@@ -29,7 +29,7 @@ UVLMeshGen relies on the function **cprintf** developed by **Yair Altman** for w
 Yair Altman (2023). cprintf - display formatted colored text in Command Window (https://www.mathworks.com/matlabcentral/fileexchange/24093-cprintf-display-formatted-colored-text-in-command-window), MATLAB Central File Exchange. Retrieved June 22, 2023.
 
 **Bugs and suggestions:**
-Please send to contact list provided below.
+Please send to the contact list provided below.
 
 ----------------------------------------------------------------------------------------------------
 
