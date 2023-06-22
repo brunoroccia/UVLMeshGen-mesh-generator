@@ -22,5 +22,5 @@ Group of Applied Matheamtics, National university of Río Cuarto, Argentina <br 
 Dr. Bruno Roccia (bruno.roccia@uib.no), University of Bergen, Norway <br />
 Dr. Luis Ceballos (lceballos@ing.unrc.edu.ar), National University of Río Cuarto, Argentina
 
-/assets/Onshore_farm_Aero.png
-https://github.com/brunoroccia/UVLMeshGen-mesh-generator/Onshore_farm_Aero.png
+https://github.com/brunoroccia/UVLMeshGen-mesh-generator/assets/Onshore_farm_Aero.png
+
