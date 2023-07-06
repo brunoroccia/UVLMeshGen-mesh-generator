@@ -47,7 +47,7 @@ Please send to the contact list provided below.
 
 **Collaborative work developed by:** <br />
 Bergen Offshore Wind Centre (BOW), University of Bergen, Norway <br />
-Group of Applied Matheamtics, National university of Río Cuarto, Argentina <br />
+Group of Applied Mathematics, National university of Río Cuarto, Argentina <br />
 
 **Contact:** <br />
 Dr. Bruno Roccia (bruno.roccia@uib.no), University of Bergen, Norway <br />
